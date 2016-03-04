@@ -52,13 +52,30 @@ table {
 
 /* My CSS */
 
+
+/*  Note: This presently results in underflow if the screen is too thin,
+    and the text eventually being larger than the image. Work on a better
+    container, or use something other than h1, h2?
+*/
 h1 {
   font-size: 3em;
-  margin-left: 16.6667%;
+  margin-left: -16.6667%;
 }
 h2 {
   font-size: 1.5em;
-  margin-left: 16.6667%;
+  margin-left: -16.6667%;
+}
+
+#wrapper {
+  display: block;
+  text-align: center;
+  font-family: 'Droid Sans';
+}
+
+#headshot {
+  padding-top: 2ex;
+  margin-left: -16.6667%;
+  max-width: 36.6667%;
 }
 
 /* Media queries */

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" class="nojs">
+
+  <head>
+    <title>Title here</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
+    <link rel="stylesheet" href="screen.css" />
+  </head>
+
+  <body>
+    <!-- https://github.com/typekit/webfontloader -->
+    <script>
+      WebFontConfig = {
+        google: { id: 'Droid Sans::latin' }
+      };
+      (function(d) {
+        var wf = d.createElement('script'), s = d.scripts[0];
+        wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        s.parentNode.insertBefore(wf, s);
+      })(document);
+    </script>
+
+  <!-- Taken from 2-08-2016 lecture -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+  <script>
+    (function($) {
+      $('html').removeClass('nojs').addClass('js');
+      $('#email').keyup(function() {
+        var value = $(this).val();
+        var pattern = $(this).attr('pattern'); /* Dry code */
+        if(value.match(pattern)) {
+          $('#submit').addClass('active');
+        }
+      });
+    })(jQuery);
+  </script>
+
+  </body>
+  
+</html>

@@ -49,8 +49,17 @@ table {
 
 /* end CSS Reset */
 
+
 /* My CSS */
 
+h1 {
+  font-size: 3em;
+  margin-left: 16.6667%;
+}
+h2 {
+  font-size: 1.5em;
+  margin-left: 16.6667%;
+}
 
 /* Media queries */
 

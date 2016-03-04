@@ -87,9 +87,9 @@ h2 {
     z-index: -1;
     top: 0;
     bottom: 0;
-    left: 83.333%; /* 16.6667% from right = 33.3333% from wrapper. */
-    border-left: 2px dotted #444; /*change these values to suit your liking*/
-}
+    right: 16.6667%; /* 16.6667% from right = 33.3333% from wrapper. */
+    border-left: 2px dotted #444; /* change these values to suit your liking */
+} /* Fill past this border with #282828, undot line */
 
 /* Media queries */
 

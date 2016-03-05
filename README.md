@@ -1,7 +1,6 @@
 KNOWN ISSUES:
   - Text in header does not resize to scale with the header image.
   - Images can overflow bottom of screen as horizontal becomes wider.
-  - Sidebar does not extend to bottom of page when scrolling
 
 TODO:
   - Make sidebar static

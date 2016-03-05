@@ -10,6 +10,12 @@ TODO:
       when scrolling down. Also allow clicking to auto-scroll.
   - Use modernizr
 
+IMAGE CREDITS:
+  - Bitcoin logo: bitcoinwiki
+  - Picture of me: DillPickle Photography
+  - Radio icon: Ocha on uxrepo.com
+  - Tux: www.felenasoft.com/xeoma
+
 ----------------------------------------------------------------------------
 
 Project Two: Media-Rich Single-Page Site Due March 21, 11:59pm CT

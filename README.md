@@ -9,6 +9,7 @@ TODO:
   - Give Images a function
     - Make all non-selected images translucent, becoming dominant and opaque 
       when scrolling down. Also allow clicking to auto-scroll.
+  - Use modernizr
 
 ----------------------------------------------------------------------------
 

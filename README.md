@@ -1,11 +1,13 @@
 KNOWN ISSUES:
   - Text in header does not resize to scale with the header image.
   - Images can overflow bottom of screen as horizontal becomes wider.
+  - Sidebar does not extend to bottom of page when scrolling
 
 TODO:
+  - Make sidebar static
   - Better spacing of the sidebar images
   - Give Images a function
-  - Make all non-selected images translucent, becoming dominant and opaque 
+    - Make all non-selected images translucent, becoming dominant and opaque 
       when scrolling down. Also allow clicking to auto-scroll.
 
 ----------------------------------------------------------------------------

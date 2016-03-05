@@ -1,3 +1,14 @@
+KNOWN ISSUES:
+  - Text in header does not resize to scale with the header image.
+  - Images can overflow bottom of screen as horizontal becomes wider.
+
+TODO:
+  - Better spacing of the sidebar images
+  - Give Images a function
+  - Make all non-selected images translucent, becoming dominant and opaque 
+      when scrolling down. Also allow clicking to auto-scroll.
+
+----------------------------------------------------------------------------
 
 Project Two: Media-Rich Single-Page Site Due March 21, 11:59pm CT
 

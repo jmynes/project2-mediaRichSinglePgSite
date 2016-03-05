@@ -1,7 +1,6 @@
 KNOWN ISSUES:
   - Text in header does not resize to scale with the header image.
   - Images can overflow bottom of screen as horizontal becomes wider.
-  - H2 in #content .main has the same margin-left value as h2 in header.
 
 TODO:
   - Better spacing of the sidebar images

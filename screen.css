@@ -96,6 +96,10 @@ h3 {
   max-width: 50%;
 }
 
+#content .main .topic {
+  margin-bottom: 10ex;
+}
+
 #content .sidebar {
   position:absolute;
   top:0; bottom:0; right: 0;

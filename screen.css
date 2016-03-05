@@ -58,12 +58,15 @@ table {
     container, or use something other than h1, h2?
 */
 h1 {
-  font-size: 3em;
+  font-size: 3.5em;
   margin-left: -16.6667%;
 }
 h2 {
-  font-size: 1.5em;
+  font-size: 2.5em;
   margin-left: -16.6667%;
+}
+h3 {
+  font-size: 2em;
 }
 
 #header {
@@ -82,7 +85,13 @@ h2 {
   
 }
 
-#content .sidebar{
+#content .main {
+  margin-top: 2ex;
+  margin-left: 25%;
+  max-width: 50%;
+}
+
+#content .sidebar {
   position:absolute;
   top:0; bottom:0; right: 0;
   width: 16.6667%; /* 16.6667% from right = 33.3333% from header. */

@@ -103,7 +103,7 @@ h3 {
 }
 
 #content .sidebar {
-  position:absolute;
+  position: fixed;
   top:0; bottom:0; right: 0;
   width: 16.6667%; /* 16.6667% from right = 33.3333% from header. */
   margin: 0 auto;

@@ -9,41 +9,46 @@
   </head>
 
   <body>
-    
-    <div id="wrapper">
-      <img src="img/DillPickle.jpg" alt="Headshot of Jordan Mynes by DillPickle Photography." id="headshot"/>
-      <h1>Jordan Mynes</h1>
-      <h2>IT, Programmer, Student</h2>
-    </div>
+    <div id="container">
+      <div id="header">
+        <img src="img/DillPickle.jpg" alt="Headshot of Jordan Mynes by DillPickle Photography." id="headshot"/>
+        <h1>Jordan Mynes</h1>
+        <h2>IT, Programmer, Student</h2>
+      </div>
 
-    <!-- https://github.com/typekit/webfontloader -->
-    <script>
-      WebFontConfig = {
-        google: { id: 'Droid Sans::latin' }
-      };
-      (function(d) {
-        var wf = d.createElement('script'), s = d.scripts[0];
-        wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
-        s.parentNode.insertBefore(wf, s);
-      })(document);
-    </script>
+      <div id="menu">
+      
+      </div>
 
-  <!-- Taken from 2-08-2016 lecture -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+      <!-- https://github.com/typekit/webfontloader -->
+      <script>
+        WebFontConfig = {
+          google: { id: 'Droid Sans::latin' }
+        };
+        (function(d) {
+          var wf = d.createElement('script'), s = d.scripts[0];
+          wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+          s.parentNode.insertBefore(wf, s);
+        })(document);
+      </script>
 
-  <script>
-    (function($) {
-      $('html').removeClass('nojs').addClass('js');
-      $('#email').keyup(function() {
-        var value = $(this).val();
-        var pattern = $(this).attr('pattern'); /* Dry code */
-        if(value.match(pattern)) {
-          $('#submit').addClass('active');
-        }
-      });
-    })(jQuery);
-  </script>
+      <!-- Taken from 2-08-2016 lecture -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
+      <script>
+        (function($) {
+          $('html').removeClass('nojs').addClass('js');
+          $('#email').keyup(function() {
+            var value = $(this).val();
+            var pattern = $(this).attr('pattern'); /* Dry code */
+            if(value.match(pattern)) {
+              $('#submit').addClass('active');
+            }
+          });
+        })(jQuery);
+      </script>
+      
+    </div>  
   </body>
   
 </html>

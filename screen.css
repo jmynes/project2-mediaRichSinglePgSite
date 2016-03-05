@@ -79,7 +79,7 @@ h2 {
 }
 
 #content {
-    
+  
 }
 
 #content .sidebar{
@@ -89,6 +89,12 @@ h2 {
   margin: 0 auto;
   background: #004FB2;
   border-left: 0.2em solid #000000;
+}
+
+.interest {
+  padding-left: 5%;
+  width: 50%;
+  display: table;
 }
 
 /* Media queries */

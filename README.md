@@ -5,7 +5,6 @@ KNOWN ISSUES:
   - Images can overflow bottom of screen as horizontal becomes wider.
 
 TODO:
-  - Make sidebar static
   - Better spacing of the sidebar images
   - Give Images a function
     - Make all non-selected images translucent, becoming dominant and opaque 

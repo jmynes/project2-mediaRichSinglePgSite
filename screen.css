@@ -66,7 +66,7 @@ h2 {
   margin-left: -16.6667%;
 }
 
-#wrapper {
+#header {
   display: block;
   text-align: center;
   font-family: 'Droid Sans';
@@ -81,15 +81,15 @@ h2 {
 /*  Modeled after 
     http://stackoverflow.com/questions/12434102/how-to-draw-a-vertical-dotted-line-down-center-of-page-using-css
 */
-#wrapper:after {
+#header:after {
     content:"";
     position: absolute;
     z-index: -1;
     top: 0;
     bottom: 0;
-    right: 16.6667%; /* 16.6667% from right = 33.3333% from wrapper. */
-    border-left: 2px dotted #444; /* change these values to suit your liking */
-} /* Fill past this border with #282828, undot line */
+    right: 16.6667%; /* 16.6667% from right = 33.3333% from header. */
+    border-left: 0.2em solid #444; /* change these values to suit your liking */
+} /* Fill past this border with #282828 */
 
 /* Media queries */
 

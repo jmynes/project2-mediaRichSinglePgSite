@@ -9,6 +9,7 @@ TODO:
     - Make all non-selected images translucent, becoming dominant and opaque 
       when scrolling down. Also allow clicking to auto-scroll.
   - Use modernizr
+  - Use flexbox
 
 IMAGE CREDITS:
   - Bitcoin logo: bitcoinwiki

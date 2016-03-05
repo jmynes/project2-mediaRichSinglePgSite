@@ -91,6 +91,21 @@ h2 {
     border-left: 0.2em solid #444; /* change these values to suit your liking */
 } /* Fill past this border with #282828 */
 
+#content {
+    
+}
+#content .sidebar{
+  
+  position:absolute;
+  top:0; bottom:0; right: 0;
+
+  width: 16.6667%;
+  margin: 0 auto;
+  
+  background: #004FB2;
+
+}
+
 /* Media queries */
 
 

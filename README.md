@@ -1,4 +1,6 @@
 KNOWN ISSUES:
+  - Font does not load from Google, I had not realized this because
+    Droid Sans is the system font on my desktop, phone, and laptop.
   - Text in header does not resize to scale with the header image.
   - Images can overflow bottom of screen as horizontal becomes wider.
 

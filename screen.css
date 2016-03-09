@@ -71,16 +71,16 @@ h3 {
   font-size: 2em;
 }
 
-#header {
+header {
   display: block;
   text-align: center;
 }
 
-#header h1, h2 {
+header h1, h2 {
   margin-left: -16.6667%;
 }
 
-#content h2 {
+main h2 {
   margin-left: 0%;
 }
 
@@ -91,25 +91,22 @@ h3 {
   max-width: 33.3333%;
 }
 
-#content {
-  
-}
 
-#content .main {
+main {
   margin-top: 2ex;
   margin-left: 16.6667%;
   max-width: 50%;
 }
 
-#content .main .topic {
+main article {
   margin-bottom: 10ex;
 }
 
 /* 
-  shrunk width by 5%, was just too big. Content now appears more left of center 
+  shrunk width by 5%, was just too big. Main now appears more left of center 
   than before, despite not having moved. (16.6667% from right = 33.3333% from header.)
 */
-#content .sidebar {
+.sidebar {
   position: fixed;
   top:0; bottom:0; right: 0;
   width: 11.6667%; 

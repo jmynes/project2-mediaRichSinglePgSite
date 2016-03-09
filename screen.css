@@ -57,6 +57,10 @@ table {
     and the text eventually being larger than the image. Work on a better
     container, or use something other than h1, h2?
 */
+body {
+  font-family: 'Droid Sans', sans-serif;
+}
+
 h1 {
   font-size: 4em;
 }
@@ -70,7 +74,6 @@ h3 {
 #header {
   display: block;
   text-align: center;
-  font-family: 'Droid Sans';
 }
 
 #header h1, h2 {

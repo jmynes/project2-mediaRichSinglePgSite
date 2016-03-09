@@ -102,10 +102,14 @@ h3 {
   margin-bottom: 10ex;
 }
 
+/* 
+  shrunk width by 5%, was just too big. Content now appears more left of center 
+  than before, despite not having moved. (16.6667% from right = 33.3333% from header.)
+*/
 #content .sidebar {
   position: fixed;
   top:0; bottom:0; right: 0;
-  width: 16.6667%; /* 16.6667% from right = 33.3333% from header. */
+  width: 11.6667%; 
   margin: 0 auto;
   background: #004FB2;
   border-left: 0.2em solid #000000;

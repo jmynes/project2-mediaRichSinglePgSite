@@ -125,21 +125,21 @@ h3 {
 
 @media screen and (max-width: 35em) {
   h1 {
-    font-size: 2.5em;
+    font-size: 3em;
   }
 
   h2 {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 }
 
 @media screen and (max-width: 25em) {
   h1 {
-    font-size: 2em;
+    font-size: 2.5em;
   }
 
   h2 {
-    font-size: 1.2em;
+    font-size: 1.5em;
   }
 }
 

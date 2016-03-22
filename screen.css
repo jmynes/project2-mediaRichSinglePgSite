@@ -109,7 +109,7 @@ main article {
   top:0; bottom:0; right: 0;
   width: 11.6667%; 
   margin: 0 auto;
-  background: #004FB2;
+  background: #004FB2; /* A nice blue, reminiscent of Facebook's blue */
   border-left: 0.2em solid #000000;
 }
 
@@ -121,6 +121,7 @@ main article {
 
 /* Media queries */
 
+/* 50em, tier 1 */
 @media screen and (max-width: 50em) {
   h1 {
     font-size: 3.5em;
@@ -135,6 +136,7 @@ main article {
   }
 }
 
+/* 40em, tier 2 */
 @media screen and (max-width: 40em) {
   h1 {
     font-size: 3em;
@@ -149,7 +151,11 @@ main article {
   }
 }
 
-/* Do not display sidebar on mobile or thin windows */
+/*
+  30em, tier 3, mobile 1 
+  Do not display sidebar on mobile or thin windows
+  Move content into newly blank space, add header color
+*/
 @media screen and (max-width: 30em) {
   h1 {
     font-size: 2.5em;
@@ -158,6 +164,7 @@ main article {
   h2 {
     font-size: 1.5em;
   }
+
   .sidebar {
     display: none; 
   }
@@ -168,7 +175,7 @@ main article {
   }
 
   header {
-    background: #004FB2;
+    background: #004FB2; /* A nice blue, reminiscent of Facebook's blue. Same as sidebar's color. */
     color: #FFFFFF;
     border-bottom: 0.2em solid #000000;
   }
@@ -186,7 +193,7 @@ main article {
   }
 }
 
-
+/* 20em, tier 4, mobile 2 */
 @media screen and (max-width: 20em) {
   h1 {
     font-size: 2em;

@@ -87,7 +87,7 @@ main h2 {
 #headshot {
   padding-top: 2ex;
   margin-left: -16.6667%; /* -16.6667% of center */
-  max-width: 33.3333%;
+  max-width: 25em;
 }
 
 main {
@@ -129,6 +129,10 @@ main article {
   h2 {
     font-size: 2.5em;
   }
+
+  #headshot {
+    max-width: 20em;
+  }
 }
 
 @media screen and (max-width: 40em) {
@@ -138,6 +142,10 @@ main article {
 
   h2 {
     font-size: 2em;
+  }
+
+  #headshot {
+    max-width: 66.66667%;
   }
 }
 
@@ -174,9 +182,7 @@ main article {
   }
 
   #headshot {
-    padding-top: 2ex;
     margin-left: 0%;
-    max-width: 50%;
   }
 }
 

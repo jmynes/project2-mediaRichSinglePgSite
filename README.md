@@ -1,6 +1,4 @@
 KNOWN ISSUES:
-  - Font does not load from Google, I had not realized this because
-    Droid Sans is the system font on my desktop, phone, and laptop.
   - Sidebar images can overflow bottom of screen as horizontal becomes wider.
 
 TODO:

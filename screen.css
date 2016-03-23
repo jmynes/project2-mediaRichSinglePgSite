@@ -76,17 +76,13 @@ h3 {
   font-size: 3em;
 }
 
-header {
-  display: block;
-  text-align: center;
-}
-
 h1, h2 {
   margin-left: -16.6667%;
 }
 
-h3 {
-  margin-left: 0%;
+header {
+  display: block;
+  text-align: center;
 }
 
 #headshot {
@@ -101,7 +97,7 @@ main {
   max-width: 50%;
 }
 
-main article {
+article {
   margin-bottom: 4em;
 }
 

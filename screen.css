@@ -63,8 +63,7 @@ body {
 
 p {
   line-height: 1.5em;
-  text-align: justify; /* Justifies block text to have uniform edges */
-  text-indent: 2em;
+  text-indent: 1.5em;
 }
 
 h1 {
@@ -91,19 +90,19 @@ h3 {
 }
 
 #headshot {
-  padding-top: 2ex;
+  padding-top: 1.5em;
   margin-left: -16.6667%; /* -16.6667% of center */
   max-width: 25em;
 }
 
 main {
-  margin-top: 2ex;
+  margin-top: 2em;
   margin-left: 16.6667%;
   max-width: 50%;
 }
 
 main article {
-  margin-bottom: 10ex;
+  margin-bottom: 4em;
 }
 
 /* 
@@ -200,7 +199,7 @@ main article {
   }
 
   h2 {
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
   }
 
   #headshot {

@@ -126,6 +126,7 @@ main article {
 
 /* Media queries */
 
+                                         /* DESKTOP */
 /* 50em, tier 1 */
 @media screen and (max-width: 50em) {
   h1 {
@@ -156,8 +157,9 @@ main article {
   }
 }
 
+                                         /* MOBILE */
 /*
-  30em, tier 3, mobile 1 
+  30em, mobile 1
   Do not display sidebar on mobile or thin windows
   Move content into newly blank space, add header color
 */
@@ -172,11 +174,6 @@ main article {
 
   .sidebar {
     display: none; 
-  }
-
-  article {
-    margin-left: -16.6667%;
-    width: 143.3333%;
   }
 
   header {
@@ -196,9 +193,14 @@ main article {
   #headshot {
     margin-left: 0%;
   }
+  
+  article {
+    margin-left: -16.6667%;
+    width: 143.3333%;
+  }
 }
 
-/* 20em, tier 4, mobile 2 */
+/* 20em, mobile 2 */
 @media screen and (max-width: 20em) {
   h1 {
     font-size: 2em;
@@ -208,4 +210,5 @@ main article {
     font-size: 1.25em;
   }
 }
+
 /* end media queries */

@@ -57,6 +57,12 @@ table {
     and the text eventually being larger than the image. Work on a better
     container, or use something other than h1, h2?
 */
+
+/*  Note 2: All vertical spacing is in a multiple of 1em or roughly 24 px
+    (according to http://reeddesign.co.uk/test/points-pixels.html, roughly 24px) 
+    as explained by http://zellwk.com/blog/why-vertical-rhythms/ 
+*/
+
 body {
   font-family: 'Droid Sans', sans-serif;
 }

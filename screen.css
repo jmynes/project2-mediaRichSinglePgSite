@@ -64,6 +64,7 @@ body {
 p {
   line-height: 1.5em;
   text-align: justify; /* Justifies block text to have uniform edges */
+  text-indent: 2em;
 }
 
 h1 {
@@ -73,7 +74,7 @@ h2 {
   font-size: 3em;
 }
 h3 {
-  font-size: 2em;
+  font-size: 3em;
 }
 
 header {
@@ -81,11 +82,11 @@ header {
   text-align: center;
 }
 
-header h1, h2 {
+h1, h2 {
   margin-left: -16.6667%;
 }
 
-main h2 {
+h3 {
   margin-left: 0%;
 }
 
@@ -136,6 +137,10 @@ main article {
   h2 {
     font-size: 2.5em;
   }
+  
+  h3 {
+    font-size: 2.5em;
+  }
 
   #headshot {
     max-width: 20em;
@@ -149,6 +154,10 @@ main article {
   }
 
   h2 {
+    font-size: 2em;
+  }
+  
+  h3 {
     font-size: 2em;
   }
 
@@ -172,28 +181,32 @@ main article {
     font-size: 1.5em;
   }
 
+  h3 {
+    font-size: 1.5em;
+  }
+
   .sidebar {
     display: none; 
   }
 
   header {
-    background: #004FB2; /* A nice blue, reminiscent of Facebook's blue. Same as sidebar's color.<<<<<<<<<<f */
+    background: #004FB2; /* A nice blue, reminiscent of Facebook's blue. Same as sidebar's color. */
     color: #FFFFFF;
     border-bottom: 0.2em solid #000000;
   }
 
-  header h1, h2 {
+  h1, h2 {
     margin-left: 0%;
   }
 
-  header h2 {
+  h2 {
     margin-bottom: 0.5em;
   }
 
   #headshot {
     margin-left: 0%;
   }
-  
+
   article {
     margin-left: -16.6667%;
     width: 143.3333%;
@@ -207,6 +220,10 @@ main article {
   }
 
   h2 {
+    font-size: 1.25em;
+  }
+  
+  h3 {
     font-size: 1.25em;
   }
 }

@@ -62,8 +62,8 @@ body {
 }
 
 p {
-  line-height: 1.5em;
-  text-indent: 1.5em;
+  line-height: 2em;
+  text-indent: 2em;
 }
 
 h1 {
@@ -86,7 +86,7 @@ header {
 }
 
 #headshot {
-  padding-top: 1.5em;
+  padding-top: 2em;
   margin-left: -16.6667%; /* -16.6667% of center */
   max-width: 25em;
 }

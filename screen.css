@@ -127,6 +127,20 @@ article {
   padding-top: 17%;
 }
 
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 1em;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 /* Media queries */
 
                                          /* DESKTOP */
@@ -212,7 +226,7 @@ article {
 
   article {
     margin-left: -16.6667%;
-    width: 163.3333%;
+    width: 168.3333%;
   }
 }
 

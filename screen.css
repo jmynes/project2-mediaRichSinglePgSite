@@ -62,6 +62,13 @@ table {
     (according to http://reeddesign.co.uk/test/points-pixels.html, roughly 24px) 
     as explained by http://zellwk.com/blog/why-vertical-rhythms/ 
 */
+a:link {
+  color: #004FB2;
+}
+
+a:visited {
+  color: DimGrey; /* #696969 */
+}
 
 body {
   font-family: 'Droid Sans', sans-serif;

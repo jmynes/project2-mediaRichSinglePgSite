@@ -229,10 +229,20 @@ article {
   h3 {
     font-size: 1.25em;
   }
-
-  #headshot {
-    max-width: 83.3333%;
-  }
 }
 
+/* 15em, mobile 3 */
+@media screen and (max-width: 17em) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.125em;
+  }
+  
+  h3 {
+    font-size: 1.125em;
+  }
+}
 /* end media queries */

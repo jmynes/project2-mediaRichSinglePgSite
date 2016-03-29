@@ -10,10 +10,14 @@ TODO:
   - Use flexbox
 
 IMAGE CREDITS:
-  - Bitcoin logo: bitcoinwiki
   - Picture of me: DillPickle Photography
+  - Bitcoin logo: bitcoinwiki
   - Radio icon: Ocha on uxrepo.com
   - Tux: www.felenasoft.com/xeoma
+  - Copyleft symbol: https://en.wikipedia.org/wiki/Copyleft
+  - Nerdcore picture: http://www.chris-whetzel.com/
+  - Arch Linux Desktop: https://www.reddit.com/r/unixporn/comments/2lol86/openboxconkytint2_some_clever_title_to_make_you/
+  - Richard Stallman: https://www.youtube.com/watch?v=UK52v6bCPvg
 
 ----------------------------------------------------------------------------
 

@@ -72,6 +72,8 @@ a:visited {
 
 body {
   font-family: 'Droid Sans', sans-serif;
+  /*Animate scroll when pushing sidebar*/
+  scroll-behavior: smooth;
 }
 
 p {

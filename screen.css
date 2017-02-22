@@ -140,7 +140,18 @@ article iframe {
 .interest {
   width: 50%;
   margin-left: 25%;
-  padding-top: 2em;
+  padding-top: 2em
+  /*Animate on mouse off*/
+  -webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
+}
+
+.interest:hover {
+  width: 70%;
+  margin-left: 15%;
+  /*Animate on mouse on*/
+  -webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
 }
 
 .interestWrapper {

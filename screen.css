@@ -141,17 +141,35 @@ article iframe {
   width: 50%;
   margin-left: 25%;
   padding-top: 2em;
+
   /*Animate on mouse off*/
   -webkit-transition-duration: 0.2s; /* Safari */
   transition-duration: 0.2s;
+
+/* In case I implement colorization, here's transparency too. */
+/*
+  filter: alpha(opacity=75);
+  -moz-opacity: 0.75;
+  -khtml-opacity: 0.75;
+  opacity: 0.75;
+*/
 }
 
 .interest:hover {
   width: 70%;
   margin-left: 15%;
+
   /*Animate on mouse on*/
   -webkit-transition-duration: 0.2s; /* Safari */
   transition-duration: 0.2s;
+
+/*
+  filter: alpha(opacity=100);
+  -moz-opacity: 1.0;
+  -khtml-opacity: 1.0;
+  opacity: 1.0;
+
+*/
 }
 
 .interestWrapper {

@@ -277,6 +277,15 @@ article iframe {
     margin-bottom: 1em;
   }
 
+  /* On smaller/mobile screens, header turns blue, so change name color naturally. */
+  a:link {
+    color: #FFFFFF;
+  }
+
+  a:visited {
+    color: #A1ACB2;
+  }
+
   #headshot {
     margin-left: 9%;
     max-width: 83.3333%;

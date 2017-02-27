@@ -278,11 +278,11 @@ article iframe {
   }
 
   /* On smaller/mobile screens, header turns blue, so change name color naturally. */
-  a:link {
+  header a:link {
     color: #FFFFFF;
   }
 
-  a:visited {
+  header a:visited {
     color: #A1ACB2;
   }
 
